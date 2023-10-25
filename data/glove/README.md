@@ -1,0 +1,1 @@
+# glove需要自行去老师的wk8-lab\5_3_doc_classification\data\glove里面拷过来!!
