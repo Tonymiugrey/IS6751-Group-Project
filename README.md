@@ -1,5 +1,9 @@
 # IS6751-Group-Project
 
+## 环境
+```sh
+conda env create -f environment.yml
+```
 ## 目录结构
 ```py
 ├─cnn # 跑CNN用的
@@ -14,7 +18,7 @@
 │  └─News_Category
 └─sample-groupprojects # 老师给的sample
 ```
-### glove需要自行去老师的wk8-lab\5_3_doc_classification\data\glove里面拷过来!!
+### glove是一个已经训练好的词向量，因为太大传不上来，需要自行去老师的wk8-lab\5_3_doc_classification\data\glove里面拷过来!!
 
 ## 准备加的东西
 1. 网格搜索超参
@@ -22,12 +26,12 @@
 ## 可能可以在报告里讨论的东西
 1. 不同模型在2分类和多分类上的表现
 2. 不同模型对长文本/短文本的学习能力
-3. FastText性能开销小，只要半min+0.8G就能和CNN训1min多+2.6G达到差不多水平（LSTM待补）
+3. FastText性能开销小，新闻类别分类只要半min+0.8G就能和CNN训1min多+2.6G达到差不多水平（LSTM待补）（这点待定，因为测试的时候预处理不一样）
 
 ## 一些别的东西
 1. 文本预处理代码在第五格（The Dataset下面），目前没做n-gram，注释掉了
 2. 如果对数据集处理的代码有改动的话，记得在群里说声
-3. CNN用到了一个叫glove的预训练词向量，或许可以试试不使用它？在args里面改；
+3. 或许可以试试不使用glove？在args里面改；
     ```py
     use_glove=True,  # True 改 False
     ```
