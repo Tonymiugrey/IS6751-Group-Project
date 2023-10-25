@@ -1,10 +1,10 @@
 # IS6751-Group-Project
 
 ## 目录结构
-
+```py
 ├─cnn # 跑CNN用的
 ├─data # 各种数据
-│  ├─glove # 给CNN用的，**需要自行去老师的wk8-lab\5_3_doc_classification\data\**glove里面拷过来！！！**
+│  ├─glove # 给CNN用的，见下文
 │  ├─original # 原数据集
 │  └─processed # 处理后数据集
 ├─data_preparation # 处理数据集用的，处理完的csv在data/processed里
@@ -13,6 +13,8 @@
 │  ├─Fake_News
 │  └─News_Category
 └─sample-groupprojects # 老师给的sample
+```
+### glove需要自行去老师的wk8-lab\5_3_doc_classification\data\glove里面拷过来!!
 
 ## 目前问题 （2023.10.25）
 做了cnn的，发现几个问题
