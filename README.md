@@ -39,3 +39,5 @@ conda env create -f environment.yml
     ```py
     self.emb = nn.Embedding.from_pretrained(pretrained_embeddings, freeze=True)  # True 改 False
     ```
+
+ieie来了
