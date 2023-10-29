@@ -5,14 +5,15 @@
 conda env create -f environment.yml
 ```
 ## 目录结构
-```py
+```sh
 ├─cnn # 跑CNN用的
 ├─data # 各种数据
-│  ├─glove # 给CNN用的，见下文
+│  ├─glove # 见下文
 │  ├─original # 原数据集
 │  └─processed # 处理后数据集
 ├─data_preparation # 处理数据集用的，处理完的csv在data/processed里
-├─lstm # 跑LSTM用的，还没弄
+├─fasttext # 跑FastText用的
+├─lstm # 跑LSTM用的
 ├─model_storage # 存模型的
 │  ├─Fake_News
 │  └─News_Category
@@ -58,6 +59,5 @@ args.batch_size=128
 3. FastText性能开销小，新闻类别分类只要半min+0.8G就能和CNN训1min多+2.6G达到差不多水平（LSTM待补）（这点待定，因为测试的时候预处理不一样）
 
 ## 一些别的东西
-1. 文本预处理代码在第五格（The Dataset下面），目前没做n-gram，注释掉了
+1. 文本预处理代码在第五格（The Dataset下面），有时间的话可以试试改n-gram和词数限制
 2. 如果对数据集处理的代码有改动的话，记得在群里说声
-3. 

@@ -1,3 +1,0 @@
-------------Not Use Pretrain------------
-------args-----
-embedding_size: 100 | num_channels: 100 | hidden_dim: 64 | dropout_p: 0.1 | batch_size: 64
