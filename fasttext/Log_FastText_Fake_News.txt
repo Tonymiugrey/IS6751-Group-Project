@@ -515,3 +515,328 @@ best by te_loss: [100, 128, 2, True, False, 64] | best by te_acc: [100, 192, 2, 
 
 ------args-----
 embedding_dim: 96 | hidden_dim: 320 | batch_size: 64
+------perf.-----
+val_loss: 0.31808676889964516 | val_acc: 90.06696428571429
+test_loss: 0.33007037213870455 | test_acc: 89.28571428571428
+took 71.84 seconds.
+best by va_loss: [100, 192, 2, True, False, 192] | best by va_acc: [100, 192, 2, True, False, 192]
+best by te_loss: [100, 128, 2, True, False, 64] | best by te_acc: [100, 192, 2, True, False, 64]
+
+------args-----
+embedding_dim: 96 | hidden_dim: 320 | batch_size: 128
+------perf.-----
+val_loss: 0.32900563733918325 | val_acc: 88.83928571428571
+test_loss: 0.3006338157824108 | test_acc: 86.38392857142857
+took 47.49 seconds.
+best by va_loss: [100, 192, 2, True, False, 192] | best by va_acc: [100, 192, 2, True, False, 192]
+best by te_loss: [100, 128, 2, True, False, 64] | best by te_acc: [100, 192, 2, True, False, 64]
+
+------args-----
+embedding_dim: 96 | hidden_dim: 320 | batch_size: 192
+------perf.-----
+val_loss: 0.3226205185055733 | val_acc: 88.93229166666667
+test_loss: 0.32125381380319595 | test_acc: 86.45833333333333
+took 53.23 seconds.
+best by va_loss: [100, 192, 2, True, False, 192] | best by va_acc: [100, 192, 2, True, False, 192]
+best by te_loss: [100, 128, 2, True, False, 64] | best by te_acc: [100, 192, 2, True, False, 64]
+
+------args-----
+embedding_dim: 128 | hidden_dim: 64 | batch_size: 64
+------perf.-----
+val_loss: 0.2789970641689641 | val_acc: 90.17857142857142
+test_loss: 0.3050857399191176 | test_acc: 88.50446428571429
+took 74.09 seconds.
+best by va_loss: [100, 192, 2, True, False, 192] | best by va_acc: [100, 192, 2, True, False, 192]
+best by te_loss: [100, 128, 2, True, False, 64] | best by te_acc: [100, 192, 2, True, False, 64]
+
+------args-----
+embedding_dim: 128 | hidden_dim: 64 | batch_size: 128
+------perf.-----
+val_loss: 0.2749766175236021 | val_acc: 89.28571428571428
+test_loss: 0.2981839116130557 | test_acc: 87.27678571428571
+took 60.41 seconds.
+best by va_loss: [100, 192, 2, True, False, 192] | best by va_acc: [100, 192, 2, True, False, 192]
+best by te_loss: [100, 128, 2, True, False, 64] | best by te_acc: [100, 192, 2, True, False, 64]
+
+------args-----
+embedding_dim: 128 | hidden_dim: 64 | batch_size: 192
+------perf.-----
+val_loss: 0.28442687913775444 | val_acc: 88.80208333333334
+test_loss: 0.2884308807551861 | test_acc: 88.41145833333334
+took 81.86 seconds.
+best by va_loss: [100, 192, 2, True, False, 192] | best by va_acc: [100, 192, 2, True, False, 192]
+best by te_loss: [100, 128, 2, True, False, 64] | best by te_acc: [100, 192, 2, True, False, 64]
+
+------args-----
+embedding_dim: 128 | hidden_dim: 128 | batch_size: 64
+------perf.-----
+val_loss: 0.2646418357534068 | val_acc: 90.73660714285714
+test_loss: 0.2857604984726225 | test_acc: 89.39732142857143
+took 60.38 seconds.
+best by va_loss: [100, 192, 2, True, False, 192] | best by va_acc: [100, 192, 2, True, False, 192]
+best by te_loss: [100, 128, 2, True, False, 64] | best by te_acc: [100, 192, 2, True, False, 64]
+
+------args-----
+embedding_dim: 128 | hidden_dim: 128 | batch_size: 128
+------perf.-----
+val_loss: 0.27474394227777205 | val_acc: 90.84821428571429
+test_loss: 0.29196422014917645 | test_acc: 89.0625
+took 63.19 seconds.
+best by va_loss: [100, 192, 2, True, False, 192] | best by va_acc: [100, 192, 2, True, False, 192]
+best by te_loss: [100, 128, 2, True, False, 64] | best by te_acc: [100, 192, 2, True, False, 64]
+
+------args-----
+embedding_dim: 128 | hidden_dim: 128 | batch_size: 192
+------perf.-----
+val_loss: 0.28415171056985855 | val_acc: 89.84375
+test_loss: 0.3099456839263439 | test_acc: 89.71354166666666
+took 86.60 seconds.
+best by va_loss: [100, 192, 2, True, False, 192] | best by va_acc: [100, 192, 2, True, False, 192]
+best by te_loss: [100, 128, 2, True, False, 64] | best by te_acc: [100, 192, 2, True, False, 64]
+
+------args-----
+embedding_dim: 128 | hidden_dim: 192 | batch_size: 64
+------perf.-----
+val_loss: 0.2918346013341631 | val_acc: 89.95535714285712
+test_loss: 0.2775695728404181 | test_acc: 88.83928571428572
+took 64.19 seconds.
+best by va_loss: [100, 192, 2, True, False, 192] | best by va_acc: [100, 192, 2, True, False, 192]
+best by te_loss: [100, 128, 2, True, False, 64] | best by te_acc: [100, 192, 2, True, False, 64]
+
+------args-----
+embedding_dim: 128 | hidden_dim: 192 | batch_size: 128
+------perf.-----
+val_loss: 0.2631853520870209 | val_acc: 90.625
+test_loss: 0.30958842805453707 | test_acc: 87.5
+took 66.19 seconds.
+best by va_loss: [100, 192, 2, True, False, 192] | best by va_acc: [100, 192, 2, True, False, 192]
+best by te_loss: [100, 128, 2, True, False, 64] | best by te_acc: [100, 192, 2, True, False, 64]
+
+------args-----
+embedding_dim: 128 | hidden_dim: 192 | batch_size: 192
+------perf.-----
+val_loss: 0.2627246081829071 | val_acc: 90.49479166666666
+test_loss: 0.31710953265428543 | test_acc: 89.19270833333333
+took 93.36 seconds.
+best by va_loss: [100, 192, 2, True, False, 192] | best by va_acc: [100, 192, 2, True, False, 192]
+best by te_loss: [100, 128, 2, True, False, 64] | best by te_acc: [100, 192, 2, True, False, 64]
+
+------args-----
+embedding_dim: 128 | hidden_dim: 256 | batch_size: 64
+------perf.-----
+val_loss: 0.2860627536262785 | val_acc: 89.84375
+test_loss: 0.33300198401723585 | test_acc: 89.0625
+took 94.11 seconds.
+best by va_loss: [100, 192, 2, True, False, 192] | best by va_acc: [100, 192, 2, True, False, 192]
+best by te_loss: [100, 128, 2, True, False, 64] | best by te_acc: [100, 192, 2, True, False, 64]
+
+------args-----
+embedding_dim: 128 | hidden_dim: 256 | batch_size: 128
+------perf.-----
+val_loss: 0.29337983472006657 | val_acc: 89.50892857142857
+test_loss: 0.31941351294517517 | test_acc: 86.94196428571429
+took 51.38 seconds.
+best by va_loss: [100, 192, 2, True, False, 192] | best by va_acc: [100, 192, 2, True, False, 192]
+best by te_loss: [100, 128, 2, True, False, 64] | best by te_acc: [100, 192, 2, True, False, 64]
+
+------args-----
+embedding_dim: 128 | hidden_dim: 256 | batch_size: 192
+------perf.-----
+val_loss: 0.3486337885260582 | val_acc: 85.67708333333333
+test_loss: 0.32032203674316406 | test_acc: 85.67708333333333
+took 47.96 seconds.
+best by va_loss: [100, 192, 2, True, False, 192] | best by va_acc: [100, 192, 2, True, False, 192]
+best by te_loss: [100, 128, 2, True, False, 64] | best by te_acc: [100, 192, 2, True, False, 64]
+
+------args-----
+embedding_dim: 128 | hidden_dim: 320 | batch_size: 64
+------perf.-----
+val_loss: 0.3423777563231332 | val_acc: 89.17410714285715
+test_loss: 0.2671541294881276 | test_acc: 89.28571428571429
+took 57.39 seconds.
+best by va_loss: [100, 192, 2, True, False, 192] | best by va_acc: [100, 192, 2, True, False, 192]
+best by te_loss: [100, 128, 2, True, False, 64] | best by te_acc: [100, 192, 2, True, False, 64]
+
+------args-----
+embedding_dim: 128 | hidden_dim: 320 | batch_size: 128
+------perf.-----
+val_loss: 0.3005382035459791 | val_acc: 88.72767857142857
+test_loss: 0.3241148889064789 | test_acc: 85.9375
+took 66.11 seconds.
+best by va_loss: [100, 192, 2, True, False, 192] | best by va_acc: [100, 192, 2, True, False, 192]
+best by te_loss: [100, 128, 2, True, False, 64] | best by te_acc: [100, 192, 2, True, False, 64]
+
+------args-----
+embedding_dim: 128 | hidden_dim: 320 | batch_size: 192
+------perf.-----
+val_loss: 0.30239127576351166 | val_acc: 89.58333333333334
+test_loss: 0.3191221058368683 | test_acc: 86.97916666666667
+took 81.52 seconds.
+best by va_loss: [100, 192, 2, True, False, 192] | best by va_acc: [100, 192, 2, True, False, 192]
+best by te_loss: [100, 128, 2, True, False, 64] | best by te_acc: [100, 192, 2, True, False, 64]
+
+------args-----
+embedding_dim: 160 | hidden_dim: 64 | batch_size: 64
+------perf.-----
+val_loss: 0.23679682931729726 | val_acc: 91.29464285714285
+test_loss: 0.27317298097269876 | test_acc: 89.95535714285715
+took 94.40 seconds.
+best by va_loss: [100, 192, 2, True, False, 192] | best by va_acc: [100, 192, 2, True, False, 192]
+best by te_loss: [100, 128, 2, True, False, 64] | best by te_acc: [100, 192, 2, True, False, 64]
+
+------args-----
+embedding_dim: 160 | hidden_dim: 64 | batch_size: 128
+------perf.-----
+val_loss: 0.24484889847891672 | val_acc: 91.18303571428571
+test_loss: 0.2833880484104157 | test_acc: 88.95089285714286
+took 86.17 seconds.
+best by va_loss: [100, 192, 2, True, False, 192] | best by va_acc: [100, 192, 2, True, False, 192]
+best by te_loss: [100, 128, 2, True, False, 64] | best by te_acc: [100, 192, 2, True, False, 64]
+
+------args-----
+embedding_dim: 160 | hidden_dim: 64 | batch_size: 192
+------perf.-----
+val_loss: 0.25884678587317467 | val_acc: 91.40625
+test_loss: 0.2867088355123997 | test_acc: 88.80208333333334
+took 68.04 seconds.
+best by va_loss: [100, 192, 2, True, False, 192] | best by va_acc: [100, 192, 2, True, False, 192]
+best by te_loss: [100, 128, 2, True, False, 64] | best by te_acc: [100, 192, 2, True, False, 64]
+
+------args-----
+embedding_dim: 160 | hidden_dim: 128 | batch_size: 64
+------perf.-----
+val_loss: 0.2708814165421895 | val_acc: 90.06696428571428
+test_loss: 0.2925446874329022 | test_acc: 88.72767857142856
+took 72.25 seconds.
+best by va_loss: [100, 192, 2, True, False, 192] | best by va_acc: [100, 192, 2, True, False, 192]
+best by te_loss: [100, 128, 2, True, False, 64] | best by te_acc: [100, 192, 2, True, False, 64]
+
+------args-----
+embedding_dim: 160 | hidden_dim: 128 | batch_size: 128
+------perf.-----
+val_loss: 0.28132531472614836 | val_acc: 89.73214285714285
+test_loss: 0.28240818636757986 | test_acc: 89.17410714285714
+took 62.17 seconds.
+best by va_loss: [100, 192, 2, True, False, 192] | best by va_acc: [100, 192, 2, True, False, 192]
+best by te_loss: [100, 128, 2, True, False, 64] | best by te_acc: [100, 192, 2, True, False, 64]
+
+------args-----
+embedding_dim: 160 | hidden_dim: 128 | batch_size: 192
+------perf.-----
+val_loss: 0.2807829901576042 | val_acc: 89.32291666666666
+test_loss: 0.2898305281996727 | test_acc: 88.80208333333333
+took 89.90 seconds.
+best by va_loss: [100, 192, 2, True, False, 192] | best by va_acc: [100, 192, 2, True, False, 192]
+best by te_loss: [100, 128, 2, True, False, 64] | best by te_acc: [100, 192, 2, True, False, 64]
+
+------args-----
+embedding_dim: 160 | hidden_dim: 192 | batch_size: 64
+------perf.-----
+val_loss: 0.32179001559104237 | val_acc: 89.06250000000001
+test_loss: 0.2922057477491242 | test_acc: 88.95089285714286
+took 65.74 seconds.
+best by va_loss: [100, 192, 2, True, False, 192] | best by va_acc: [100, 192, 2, True, False, 192]
+best by te_loss: [100, 128, 2, True, False, 64] | best by te_acc: [100, 192, 2, True, False, 64]
+
+------args-----
+embedding_dim: 160 | hidden_dim: 192 | batch_size: 128
+------perf.-----
+val_loss: 0.2973619720765523 | val_acc: 89.62053571428571
+test_loss: 0.2767875130687441 | test_acc: 89.17410714285714
+took 59.83 seconds.
+best by va_loss: [100, 192, 2, True, False, 192] | best by va_acc: [100, 192, 2, True, False, 192]
+best by te_loss: [100, 128, 2, True, False, 64] | best by te_acc: [100, 192, 2, True, False, 64]
+
+------args-----
+embedding_dim: 160 | hidden_dim: 192 | batch_size: 192
+------perf.-----
+val_loss: 0.29126855731010437 | val_acc: 89.71354166666667
+test_loss: 0.3362945318222046 | test_acc: 88.28125
+took 94.36 seconds.
+best by va_loss: [100, 192, 2, True, False, 192] | best by va_acc: [100, 192, 2, True, False, 192]
+best by te_loss: [100, 128, 2, True, False, 64] | best by te_acc: [100, 192, 2, True, False, 64]
+
+------args-----
+embedding_dim: 160 | hidden_dim: 256 | batch_size: 64
+------perf.-----
+val_loss: 0.3532718962856702 | val_acc: 88.72767857142857
+test_loss: 0.2922019926565034 | test_acc: 88.95089285714286
+took 65.72 seconds.
+best by va_loss: [100, 192, 2, True, False, 192] | best by va_acc: [100, 192, 2, True, False, 192]
+best by te_loss: [100, 128, 2, True, False, 64] | best by te_acc: [100, 192, 2, True, False, 64]
+
+------args-----
+embedding_dim: 160 | hidden_dim: 256 | batch_size: 128
+------perf.-----
+val_loss: 0.2983750232628413 | val_acc: 89.95535714285715
+test_loss: 0.26823195815086365 | test_acc: 88.95089285714286
+took 62.79 seconds.
+best by va_loss: [100, 192, 2, True, False, 192] | best by va_acc: [100, 192, 2, True, False, 192]
+best by te_loss: [100, 128, 2, True, False, 64] | best by te_acc: [100, 192, 2, True, False, 64]
+
+------args-----
+embedding_dim: 160 | hidden_dim: 256 | batch_size: 192
+------perf.-----
+val_loss: 0.28710753098130226 | val_acc: 90.88541666666666
+test_loss: 0.2826214134693146 | test_acc: 89.84375
+took 71.60 seconds.
+best by va_loss: [100, 192, 2, True, False, 192] | best by va_acc: [100, 192, 2, True, False, 192]
+best by te_loss: [100, 128, 2, True, False, 64] | best by te_acc: [100, 192, 2, True, False, 64]
+
+------args-----
+embedding_dim: 160 | hidden_dim: 320 | batch_size: 64
+------perf.-----
+val_loss: 0.30019399736608776 | val_acc: 90.17857142857143
+test_loss: 0.31111500837973194 | test_acc: 86.49553571428571
+took 51.99 seconds.
+best by va_loss: [100, 192, 2, True, False, 192] | best by va_acc: [100, 192, 2, True, False, 192]
+best by te_loss: [100, 128, 2, True, False, 64] | best by te_acc: [100, 192, 2, True, False, 64]
+
+------args-----
+embedding_dim: 160 | hidden_dim: 320 | batch_size: 128
+------perf.-----
+val_loss: 0.27537072556359427 | val_acc: 88.72767857142857
+test_loss: 0.29172651682581224 | test_acc: 88.83928571428571
+took 44.89 seconds.
+best by va_loss: [100, 192, 2, True, False, 192] | best by va_acc: [100, 192, 2, True, False, 192]
+best by te_loss: [100, 128, 2, True, False, 64] | best by te_acc: [100, 192, 2, True, False, 64]
+
+------args-----
+embedding_dim: 160 | hidden_dim: 320 | batch_size: 192
+------perf.-----
+val_loss: 0.26672347262501717 | val_acc: 90.234375
+test_loss: 0.3391065001487732 | test_acc: 86.328125
+took 62.71 seconds.
+best by va_loss: [100, 192, 2, True, False, 192] | best by va_acc: [100, 192, 2, True, False, 192]
+best by te_loss: [100, 128, 2, True, False, 64] | best by te_acc: [100, 192, 2, True, False, 64]
+
+--------------Best Val Loss--------------
+embedding_dim: 100
+hidden_dim: 192
+output_dim: 2
+is_pretrained_embeddings: True
+emb_freeze: False
+batch_size: 192
+
+--------------Best Val Acc--------------
+embedding_dim: 100
+hidden_dim: 192
+output_dim: 2
+is_pretrained_embeddings: True
+emb_freeze: False
+batch_size: 192
+
+--------------Best Test Loss--------------
+embedding_dim: 100
+hidden_dim: 128
+output_dim: 2
+is_pretrained_embeddings: True
+emb_freeze: False
+batch_size: 64\n--------------Best Test Acc--------------
+embedding_dim: 100
+hidden_dim: 192
+output_dim: 2
+is_pretrained_embeddings: True
+emb_freeze: False
+batch_size: 64
+
